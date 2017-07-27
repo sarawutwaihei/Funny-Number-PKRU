@@ -30,8 +30,16 @@
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Home" id="NFE-JK-H4q">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="pAm-A6-TLM"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="4q7-sX-LYR"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="pAm-A6-TLM">
+                                            <connections>
+                                                <action selector="decButton:" destination="BYZ-38-t0r" id="sqO-lr-mqf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="4q7-sX-LYR">
+                                            <connections>
+                                                <action selector="incButton:" destination="BYZ-38-t0r" id="9qD-hE-vUB"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -57,6 +65,9 @@
                             <constraint firstItem="fy6-TR-Dhy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wBg-z9-CgT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="6hb-eO-EwQ" id="dMP-4A-CZI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
