@@ -21,5 +21,16 @@ class MyClass {
         return intResult
     }
     
+    //Incresase
+    func increaseNumber(intNumber: Int) -> Int {
+        
+        let intResult = intNumber  + 1
+        
+        return intResult    }
+    
+   
+    
+    
+    
     
 } // My Class
