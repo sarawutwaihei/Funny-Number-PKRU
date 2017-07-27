@@ -13,4 +13,13 @@ class MyClass {
     let strName = "App"
     
     
+    //Decrease Number
+    func decreaseNumber(intNumber: Int) -> Int {
+        
+        let intResult = intNumber - 1
+        
+        return intResult
+    }
+    
+    
 } // My Class
