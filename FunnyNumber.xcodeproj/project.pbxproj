@@ -14,6 +14,7 @@
 		2F22AB9F1F29D7C600ABE895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F22AB9D1F29D7C600ABE895 /* LaunchScreen.storyboard */; };
 		2F22ABA91F29E04700ABE895 /* bg_prime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F22ABA81F29E04700ABE895 /* bg_prime.jpg */; };
 		2F22ABAB1F29EA7B00ABE895 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F22ABAA1F29EA7B00ABE895 /* MyClass.swift */; };
+		2FC42DA61F2AD491003A1816 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2FC42DA51F2AD491003A1816 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2F22ABA01F29D7C600ABE895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F22ABA81F29E04700ABE895 /* bg_prime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_prime.jpg; path = ../../../../Desktop/bg_prime.jpg; sourceTree = "<group>"; };
 		2F22ABAA1F29EA7B00ABE895 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		2FC42DA51F2AD491003A1816 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		2F22AB881F29D7C600ABE895 = {
 			isa = PBXGroup;
 			children = (
+				2FC42DA51F2AD491003A1816 /* README.md */,
 				2F22AB931F29D7C600ABE895 /* FunnyNumber */,
 				2F22AB921F29D7C600ABE895 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				2F22AB971F29D7C600ABE895 /* ViewController.swift in Sources */,
 				2F22AB951F29D7C600ABE895 /* AppDelegate.swift in Sources */,
+				2FC42DA61F2AD491003A1816 /* README.md in Sources */,
 				2F22ABAB1F29EA7B00ABE895 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				2F22ABA51F29D7C600ABE895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
